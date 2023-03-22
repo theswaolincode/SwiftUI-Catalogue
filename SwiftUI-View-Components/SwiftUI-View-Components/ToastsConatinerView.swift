@@ -10,7 +10,6 @@ import ToastLauncher
 
 struct ToastsConatinerView: View {
     @State var isPresentingView: Bool = false
-    @State var isPresentingView2: Bool = false
     @State var viewAlignment: Alignment = .top
     @State var animationStart: AnyTransition = .move(edge: .top)
     @State var animationEnd: AnyTransition = .opacity
@@ -68,7 +67,7 @@ struct ToastsConatinerView: View {
                     Text("➡️ Show Trailing Toast View 🚀")
                 })
             }
-            .disabled(isPresentingView || isPresentingView2)
+            .disabled(isPresentingView)
             .buttonStyle(.bordered)
         }
         .toastView(isPresented: $isPresentingView,
@@ -90,19 +89,6 @@ struct ToastsConatinerView: View {
             isPresentingView = false
         }
     }
-    
-    private func dismissToastView2() {
-        withAnimation(.easeInOut) {
-            isPresentingView2 = false
-        }
-    }
-    
-    private func didTapSlideView() {
-        withAnimation(.easeOut) {
-            isPresentingView2 = true
-        }
-    }
-    
 }
 
 struct ToastsConatinerView_Previews: PreviewProvider {
