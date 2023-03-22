@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ToastsConatinerView.swift
 //  SwiftUI-View-Components
 //
 //  Created by Daniel Ayala on 22/3/23.
@@ -8,7 +8,7 @@
 import SwiftUI
 import ToastLauncher
 
-struct ContentView: View {
+struct ToastsConatinerView: View {
     @State var isPresentingView: Bool = false
     @State var isPresentingView2: Bool = false
     @State var viewAlignment: Alignment = .top
@@ -105,8 +105,8 @@ struct ContentView: View {
     
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ToastsConatinerView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ToastsConatinerView()
     }
 }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C4012A1129CBAE0B007F8B0D /* SwiftUI_View_ComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4012A1029CBAE0B007F8B0D /* SwiftUI_View_ComponentsApp.swift */; };
-		C4012A1329CBAE0B007F8B0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4012A1229CBAE0B007F8B0D /* ContentView.swift */; };
+		C4012A1329CBAE0B007F8B0D /* ToastsConatinerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4012A1229CBAE0B007F8B0D /* ToastsConatinerView.swift */; };
 		C4012A1529CBAE0C007F8B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4012A1429CBAE0C007F8B0D /* Assets.xcassets */; };
 		C4012A1829CBAE0C007F8B0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4012A1729CBAE0C007F8B0D /* Preview Assets.xcassets */; };
 		C4012A2029CBAE95007F8B0D /* ToastLauncher in Frameworks */ = {isa = PBXBuildFile; productRef = C4012A1F29CBAE95007F8B0D /* ToastLauncher */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		C4012A0D29CBAE0B007F8B0D /* SwiftUI-View-Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-View-Components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4012A1029CBAE0B007F8B0D /* SwiftUI_View_ComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_View_ComponentsApp.swift; sourceTree = "<group>"; };
-		C4012A1229CBAE0B007F8B0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4012A1229CBAE0B007F8B0D /* ToastsConatinerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastsConatinerView.swift; sourceTree = "<group>"; };
 		C4012A1429CBAE0C007F8B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4012A1729CBAE0C007F8B0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				C4012A1029CBAE0B007F8B0D /* SwiftUI_View_ComponentsApp.swift */,
-				C4012A1229CBAE0B007F8B0D /* ContentView.swift */,
+				C4012A1229CBAE0B007F8B0D /* ToastsConatinerView.swift */,
 				C4012A1429CBAE0C007F8B0D /* Assets.xcassets */,
 				C4012A1629CBAE0C007F8B0D /* Preview Content */,
 			);
@@ -150,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4012A1329CBAE0B007F8B0D /* ContentView.swift in Sources */,
+				C4012A1329CBAE0B007F8B0D /* ToastsConatinerView.swift in Sources */,
 				C4012A1129CBAE0B007F8B0D /* SwiftUI_View_ComponentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

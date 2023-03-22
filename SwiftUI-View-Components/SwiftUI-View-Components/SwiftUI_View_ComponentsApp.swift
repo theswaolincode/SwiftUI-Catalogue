@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_View_ComponentsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ToastsConatinerView()
         }
     }
 }
